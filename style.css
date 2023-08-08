@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.hero-page{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding: 4vw;
+    gap: 10vw;
+    background-color: #F8DE22;
+}
+.hero-page>img{
+    height: 100%;
+    border-radius: 20px;
+}
